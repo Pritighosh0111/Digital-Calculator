@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="body">
+    <div class="bor"><br>
+        <div class="hd">CASIO</div><br>
+        <div class="screen" id="screen"></div><br><br>
+        <div class="firrow">
+            <div class="cc" onclick="clearit()"><div class="fix">A/C</div></div>
+            <div class="cc" onclick="addsub()"><div class="fix">+/-</div></div>
+            <div class="cc" onclick="changeme('/100')"><div class="fix">%</div></div>
+            <div class="cc"onclick="changeme('+')"><div class="fix">+</div></div>
+        </div><br>
+        <div class="firrow">
+            <div class="cc" onclick="changeme('9')"><div class="fix">9</div></div>
+            <div class="cc" onclick="changeme('8')"><div class="fix">8</div></div>
+            <div class="cc" onclick="changeme('7')" ><div class="fix">7</div></div>
+            <div class="cc" onclick="changeme('-')"><div class="fix">-</div></div>
+        </div><br>
+        <div class="firrow">
+            <div class="cc" onclick="changeme('6')"><div class="fix">6</div></div>
+            <div class="cc" onclick="changeme('5')"><div class="fix">5</div></div>
+            <div class="cc" onclick="changeme('4')"><div class="fix">4</div></div>
+            <div class="cc" onclick="changeme('*')"><div class="star">*</div></div>
+        </div><br>
+        <div class="firrow">
+            <div class="cc" onclick="changeme('3')"><div class="fix">3</div></div>
+            <div class="cc" onclick="changeme('2')"><div class="fix">2</div></div>
+            <div class="cc" onclick="changeme('1')"><div class="fix">1</div></div>
+            <div class="cc" onclick="changeme('/')"><div class="fix">/</div></div>
+        </div><br>
+        <div class="firrow">
+            <div class="cc" onclick="changeme('0')"><div class="fix">0</div></div>
+            <div class="cc" onclick="changeme('00')"><div class="fix">00</div></div>
+            <div class="cc" onclick="changeme('.')"><div class="fix">.</div></div>
+            <div class="cc" onclick="result()"><div class="fix">=</div></div>
+        </div>
+
+
+    </div>
+    </div>
+
+    <script src="cal.js"></script>
+</body>
+</html>
