@@ -1,1 +1,1 @@
-# Digital Calculator----using HTML, CSS, JavaScript.
+# Digital Calculator----  using HTML, CSS, JavaScript.
